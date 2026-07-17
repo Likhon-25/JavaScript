@@ -118,10 +118,21 @@ const isAdmin = true;
 
 if(isLoggedIn === true){
   if(isAdmin === true){
-    console.log("Admin Dashboard");
+    // console.log("Admin Dashboard");
   } else{
-    console.log("User Dashboard");
+    // console.log("User Dashboard");
   }
 } else{
-  console.log("Please Login");
+  // console.log("Please Login");
 }
+
+// -------------
+const num = 2;
+
+const result = (num % 2 === 0) ? "Even" : "Odd";
+// console.log(result);
+
+// ----
+const boyos = 20;
+const isAdult = (boyos >= 18) ? "Adult" : "Child";
+console.log(isAdult);
