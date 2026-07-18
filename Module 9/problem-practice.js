@@ -25,7 +25,27 @@ for(a = 1; a <= 10; a++){
 let b = 10;
 while(b > 1){
    b--;
-   console.log(b);
+//    console.log(b);
 }
- 
 
+// ---------------------------------------------------
+// Task 4 — Repeat a Message 
+// Using a while loop, print "Loop চলছে" exactly 7 times.
+// // Your code here
+
+
+let c = 0;
+while(c < 7){
+    // console.log("Loop চলছে");
+    c++;
+}
+
+// -----------------------------------------------------
+
+// Task 5 — Even Numbers 
+// Write a for loop that prints all even numbers between 1 and 30.
+// // Your code here
+ 
+for(let i = 2; i <= 30; i += 2){
+    console.log("Ever Number: ", i);
+}
