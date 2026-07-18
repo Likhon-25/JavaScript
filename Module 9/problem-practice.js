@@ -71,7 +71,50 @@ for(d = 1; d <= 20; d++){
  
 let sub = 7;
 for(e = 1; e <= 10; e++){
-    console.log(e, '*', sub, '=', e * sub);
+    // console.log(e, '*', sub, '=', e * sub);
 }
+
+// --------------------------------------------------------
+
+// Task 8 — Count Down from 20 
+// Write a for loop that counts down from 20 to 1.
+// // Your code here
+
+let f = 20
+while(f >= 1){
+    // console.log(f);
+    f--;
+}
+for(i = 20; i >= 1; i--){
+    // console.log(i);
+}
+
+// --------------------------------------------
+
+// Task 9 — Sum of Even Numbers
+// Write a for loop that calculates the sum of all even numbers from 2 to 50.
+// // Your code here
+
+let total = 0;
+for(i = 2; i <= 50; i += 2){
+    total = total + i;
+    // console.log(i , '+', total, '=', total + 1);
+}
+// console.log(total);
+
+// --------------------------------------------
+// Task 10 — Using Break 
+// Write a for loop from 1 to 50 that stops completely (break) as soon as it reaches a number greater than 30.
+// // Your code here
  
+ for( i = 1; i <= 50; i++){
+    if(i > 30){
+        break
+    }
+    // console.log(i);
+ }
+
+//  -----------------------------------------------
+
+
 
