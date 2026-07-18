@@ -59,5 +59,19 @@ for(let i = 2; i <= 30; i += 2){
 let summation = 0;
 for(d = 1; d <= 20; d++){
     summation = summation + d;
+    // console.log(d, '+', summation, '=', d + summation);
 }
-console.log(summation);
+// console.log(summation);
+
+// --------------------------------------------------------
+
+// Task 7 — Multiplication Table 
+// Ask the user for a number (or set a variable), then print its multiplication table from 1 to 10 using a for loop. Example: if the number is 7 → 7 x 1 = 7, 7 x 2 = 14, ... 7 x 10 = 70.
+// // Your code here
+ 
+let sub = 7;
+for(e = 1; e <= 10; e++){
+    console.log(e, '*', sub, '=', e * sub);
+}
+ 
+
