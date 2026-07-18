@@ -47,5 +47,17 @@ while(c < 7){
 // // Your code here
  
 for(let i = 2; i <= 30; i += 2){
-    console.log("Ever Number: ", i);
+    // console.log("Ever Number: ", i);
 }
+
+// ------------------------------------------------------
+
+// Task 6 — Sum of Numbers 
+// Write a for loop that calculates the sum of numbers from 1 to 20 and prints the result.
+// // Your code here
+
+let summation = 0;
+for(d = 1; d <= 20; d++){
+    summation = summation + d;
+}
+console.log(summation);
