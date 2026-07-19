@@ -9,6 +9,6 @@ let dept = ['CSE', "EEE", "ET", "MT","CIVIL"]
 // console.log(dept.indexOf("ET"));
 
 console.log(dept);
-console.log(dept.join());
+console.log(dept.join(" || "));
 let name = 'Likhon';
 // console.log(Array.isArray(name));
