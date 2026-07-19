@@ -1,5 +1,10 @@
 const fruit = ['Mango', 'Guava', 'Grape', 'GrapeFruit', 'Dragon', 'Papaya', 'Apple']
 
+console.log(fruit.length);
+console.log(fruit[5]);
+
+console.log(fruit[fruit.length -1]);
+
 // console.log((fruit.length));
 // console.log(fruit[2]);
 
@@ -7,6 +12,6 @@ const fruit = ['Mango', 'Guava', 'Grape', 'GrapeFruit', 'Dragon', 'Papaya', 'App
 // console.log(fruit[fruit.length]);
 // console.log(fruit[fruit.length - 1]);
 
- fruit[3] = 'Banana';
- console.log(fruit);
+fruit[3] = "Date"
+console.log(fruit);
 
