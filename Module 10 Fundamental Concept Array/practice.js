@@ -4,7 +4,7 @@ let sum = 0;
 for (let i = 0; i < number.length; i++) {
   sum = sum + number[i];
 }
-// console.log(sum);
+console.log(sum);
 
 // ----------------------
 
@@ -14,13 +14,13 @@ for (let i = 1; i < number.length; i++) {
     max = number[1];
   }
 }
-// console.log(max);
+console.log(max);
 
 // ------------------------------
 
 for (let i = 0; i < number.length; i++) {
   if (number[i] % 2 === 0) {
-    // console.log(number[i]);
+    console.log(number[i]);
   }
 }
 
