@@ -38,7 +38,7 @@ let student = {
     semester: 6
 };
 let value = student['department']
-console.log(value);
+// console.log(value);
 // console.log(student.department);
 
 
@@ -46,5 +46,30 @@ let car = {
     name: 'BMW'
 }
 car.color = 'Black'
-console.log(car);
+// console.log(car);
 
+let keys = Object.keys(student)
+// console.log(keys);
+
+
+// let student = {
+//     name: "Likhon",
+//     age: 18,
+//     department: "CST"
+// };
+
+// let keys = Object.keys(student);
+
+// console.log(keys);
+
+
+let university = {
+    name: "RUET",
+
+    department: {
+        name: "CSE",
+        semester: 6
+    }
+};
+
+console.log(university.department.name);
