@@ -31,7 +31,7 @@ function result (a, b){
 }
 
 let add = result(20, 30)
-console.log(add);
+// console.log(add);
 
 // -------------------------
 
@@ -42,8 +42,15 @@ let minas = subs( 20, 5)
 // console.log(minas);
 
 
-function summation( p , q){
-    return p + q;
-}
-let totalSum = summation(30, 35)
+// function summation( p , q){
+    // return p + q;
+// }
+// let totalSum = summation(30, 35)
 // console.log(totalSum);
+
+
+function totalSumm(a, b, c){
+    return a + b -c;
+}
+let sumOfNumber = totalSumm(20, 49, 38)
+console.log(sumOfNumber);
