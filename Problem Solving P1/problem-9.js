@@ -13,9 +13,6 @@
 // }
 // console.log("largest Number", largest);
 
-
-
-
 // With  Function
 function largestNumer(arr) {
   let largest = arr[0];
@@ -27,8 +24,8 @@ function largestNumer(arr) {
     }
     console.log(currentElement);
   }
-  return largest
+  return largest;
 }
 // console.log("The Largest Number",largestNumer([575,44,56,78,8990,2334,33]));
-let number = largestNumer([575,44,56,78,8990,2334,33])
-console.log("The Largest Number",number);
+let number = largestNumer([575, 44, 56, 78, 8990, 2334, 33]);
+console.log("The Largest Number", number);

@@ -11,8 +11,8 @@ function samllestNumber(arr) {
     }
     console.log(currentElement);
   }
-  return smallest
+  return smallest;
 }
 // console.log("The Largest Number",largestNumer([575,44,56,78,8990,2334,33]));
-let number = samllestNumber([575,44,56,78,8990,2334,33])
-console.log("The Samllest Number",number);
+let number = samllestNumber([575, 44, 56, 78, 8990, 2334, 33]);
+console.log("The Samllest Number", number);

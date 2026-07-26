@@ -10,13 +10,11 @@
 
 // console.log(str.split(" "));
 
-
-
 // With Function
-function wordCount(str){
-    let splitWord = str.split(" ");
-    return splitWord.length;
+function wordCount(str) {
+  let splitWord = str.split(" ");
+  return splitWord.length;
 }
-let word = wordCount("Md Likhon Mondol")
+let word = wordCount("Md Likhon Mondol");
 console.log(word);
 console.log(wordCount("Hello Bangladesh I Love your"));
