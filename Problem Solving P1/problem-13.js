@@ -7,17 +7,17 @@ let monitor ={
     size: "Something",
     test: "Something"
 }
-console.log(monitor["color"]); //braket notation
-console.log(monitor.color); //dot notation
+// console.log(monitor["color"]); //braket notation
+// console.log(monitor.color); //dot notation
 
 // for loop
 for(let key in monitor){
-    console.log(key, ": " , monitor[key]);
+    // console.log(key, ": " , monitor[key]);
 }
 
 // Using keys method
 let objKey = Object.keys(monitor);
-console.log(objKey);
+// console.log(objKey);
 
 // for(let i = 0; i < objKey.length; i++){
 //     let key = objKey[i];

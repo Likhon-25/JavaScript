@@ -9,3 +9,15 @@ function checkEvenOdd(Number){
 }
 console.log(checkEvenOdd(34));
 console.log(checkEvenOdd(33));
+
+// Practice 
+function EvenOdd(num){
+    if(num % 2 === 0){
+        return "Even"
+    } else {
+        return "Odd"
+    }
+}
+
+let Number  = EvenOdd(6)
+console.log(Number);

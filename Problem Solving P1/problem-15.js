@@ -33,8 +33,8 @@ function getSum(arr) {
   let sum = 0;
   for (let key of arr) {
     console.log(key);
-    //   sum = sum + key;
-    sum += key;
+    sum = sum + key;
+    // sum += key;
   }
 
   return sum;
@@ -42,4 +42,4 @@ function getSum(arr) {
 
 let evenNumbers = getEvenNumbers(arr);
 let sum = getSum(evenNumbers);
-console.log("sum: -> ", sum);
+console.log("sum: ==> ", sum);
